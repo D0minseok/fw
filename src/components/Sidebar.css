@@ -1,82 +1,82 @@
+.sidebar-toggle {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 30;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.sidebar-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(17, 24, 39, 0.35);
+  z-index: 25;
+}
+
 .sidebar {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
+  z-index: 28;
   height: 100svh;
-  width: 68px;
-  flex-shrink: 0;
+  width: 220px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 4px;
-  padding: 16px 0;
+  padding: 72px 16px 24px;
   background: var(--color-surface);
   border-right: 1px solid var(--color-border);
+  transform: translateX(-100%);
+  transition: transform 0.2s ease;
+}
+
+.sidebar--open {
+  transform: translateX(0);
 }
 
 .sidebar__logo {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
+  font-weight: 800;
   text-decoration: none;
+  color: var(--color-text);
+  padding: 0 12px;
   margin-bottom: 20px;
 }
 
 .sidebar__nav {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 6px;
-  width: 100%;
 }
 
 .sidebar__link {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 2px;
-  width: 56px;
-  padding: 8px 4px;
+  gap: 10px;
+  padding: 10px 12px;
   border-radius: var(--radius-sm);
   text-decoration: none;
   color: var(--color-text-muted);
-  font-size: 0.68rem;
   font-weight: 600;
+  font-size: 0.95rem;
 }
 
 .sidebar__icon {
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   line-height: 1;
 }
 
 .sidebar__link--active {
   background: var(--color-primary-light);
   color: var(--color-primary-dark);
-}
-
-@media (min-width: 768px) {
-  .sidebar {
-    width: 220px;
-    align-items: stretch;
-    padding: 24px 16px;
-  }
-
-  .sidebar__logo {
-    padding: 0 10px;
-  }
-
-  .sidebar__nav {
-    align-items: stretch;
-  }
-
-  .sidebar__link {
-    flex-direction: row;
-    width: auto;
-    justify-content: flex-start;
-    gap: 10px;
-    padding: 10px 12px;
-    font-size: 0.95rem;
-  }
-
-  .sidebar__icon {
-    font-size: 1.15rem;
-  }
 }

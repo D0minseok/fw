@@ -10,18 +10,16 @@ import NotFound from './pages/NotFound.jsx'
 function App() {
   return (
     <HashRouter>
-      <div className="app-shell">
-        <Sidebar />
-        <div className="app-main">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/exercises" element={<ExercisesList />} />
-            <Route path="/exercises/:id" element={<ExerciseDetail />} />
-            <Route path="/products" element={<ProductsList />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-          <Footer />
-        </div>
+      <Sidebar />
+      <div className="app-main">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/exercises" element={<ExercisesList />} />
+          <Route path="/exercises/:id" element={<ExerciseDetail />} />
+          <Route path="/products" element={<ProductsList />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <Footer />
       </div>
     </HashRouter>
   )
