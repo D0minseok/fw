@@ -23,15 +23,8 @@
 
 .hero__desc {
   max-width: 480px;
-  margin: 0 auto 24px;
+  margin: 0 auto;
   color: var(--color-text-muted);
-}
-
-.hero__actions {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  flex-wrap: wrap;
 }
 
 @media (min-width: 640px) {
