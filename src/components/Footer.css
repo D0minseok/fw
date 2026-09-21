@@ -1,0 +1,21 @@
+.footer {
+  border-top: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.footer__inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 20px;
+}
+
+.footer__inner p {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.footer__credit {
+  margin-top: 8px;
+  font-weight: 600;
+  color: var(--color-text);
+}

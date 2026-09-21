@@ -1,0 +1,39 @@
+.exercise-card {
+  display: flex;
+  gap: 14px;
+  padding: 18px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.exercise-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.exercise-card__visual {
+  font-size: 2rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.exercise-card__name {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+}
+
+.exercise-card__badges {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.exercise-card__desc {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+}

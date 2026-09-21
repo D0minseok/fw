@@ -1,0 +1,29 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.badge--category {
+  background: var(--color-primary-light);
+  color: var(--color-primary-dark);
+}
+
+.badge--beginner {
+  background: var(--color-beginner-bg);
+  color: var(--color-beginner);
+}
+
+.badge--intermediate {
+  background: var(--color-intermediate-bg);
+  color: var(--color-intermediate);
+}
+
+.badge--advanced {
+  background: var(--color-advanced-bg);
+  color: var(--color-advanced);
+}
