@@ -40,6 +40,10 @@ npm run preview
 
 새로운 운동이나 용품은 `src/data/exercises.js`, `src/data/products.js`에 항목을 추가하면 됩니다. 별도의 코드 수정 없이 데이터만 추가해도 목록·상세 페이지에 자동으로 반영됩니다.
 
+## 이미지 출처
+
+- 홈 화면 히어로 사진: [Ryan Hoffman](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%97%AD%EA%B8%B0%EB%A5%BC-%EB%93%9C%EB%8A%94-%EB%82%A8%EC%9E%90-kkVAhFEZCWk) on Unsplash (Unsplash License — 출처 표기 의무는 없으나 예의상 남겨둠)
+
 ## 면책 문구
 
 본 콘텐츠는 일반적인 정보 제공을 목적으로 하며, 전문가의 운동 지도나 의학적 조언을 대체하지 않습니다.
