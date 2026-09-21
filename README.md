@@ -1,5 +1,7 @@
 # FW (First Workout)
 
+🔗 배포 링크: **https://d0minseok.github.io/fw/**
+
 운동을 처음 접하는 분들을 위한 웹앱입니다. 운동 종목을 부위·난이도별로 소개하고, 운동에 도움이 되는 용품을 큐레이션으로 추천합니다.
 
 - 운동 가이드: 부위(상체/하체/코어/유산소/스트레칭)와 난이도로 필터링해 운동 방법과 초보자 팁을 확인
@@ -30,7 +32,7 @@ npm run preview
 
 `main` 브랜치에 push하면 `.github/workflows/deploy.yml`이 자동으로 빌드 후 GitHub Pages에 배포합니다. 저장소 Settings → Pages → Source를 "GitHub Actions"로 설정해야 합니다.
 
-배포 URL: `https://<username>.github.io/fw/`
+배포 URL: https://d0minseok.github.io/fw/
 
 > `vite.config.js`의 `base` 값은 저장소 이름(`fw`)과 정확히 일치해야 합니다. 저장소 이름을 바꾸면 `base` 값도 함께 수정하세요.
 
