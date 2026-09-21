@@ -1,5 +1,5 @@
 import { HashRouter, Routes, Route } from 'react-router-dom'
-import Sidebar from './components/Sidebar.jsx'
+import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
 import Home from './pages/Home.jsx'
 import ExercisesList from './pages/ExercisesList.jsx'
@@ -10,7 +10,7 @@ import NotFound from './pages/NotFound.jsx'
 function App() {
   return (
     <HashRouter>
-      <Sidebar />
+      <Navbar />
       <div className="app-main">
         <Routes>
           <Route path="/" element={<Home />} />

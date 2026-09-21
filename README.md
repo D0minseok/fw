@@ -40,9 +40,9 @@ npm run preview
 
 새로운 운동이나 용품은 `src/data/exercises.js`, `src/data/products.js`에 항목을 추가하면 됩니다. 별도의 코드 수정 없이 데이터만 추가해도 목록·상세 페이지에 자동으로 반영됩니다.
 
-## 이미지 출처
+## 디자인 출처
 
-- 홈 화면 히어로 사진: [Ryan Hoffman](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%97%AD%EA%B8%B0%EB%A5%BC-%EB%93%9C%EB%8A%94-%EB%82%A8%EC%9E%90-kkVAhFEZCWk) on Unsplash (Unsplash License — 출처 표기 의무는 없으나 예의상 남겨둠)
+홈 화면은 Figma(`figma.com/design/KCKcbYSE5xR73ezrmXMK3B`)에서 만든 디자인을 기반으로 구현했습니다. 사진·아이콘 에셋은 해당 Figma 파일에서 내보낸 것을 그대로 사용했습니다.
 
 ## 면책 문구
 
